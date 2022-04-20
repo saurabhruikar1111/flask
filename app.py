@@ -45,7 +45,7 @@ def home1():
     print(data)
     return jsonify(dic)
 
-app.run(port=5000,debug=True)
+app.run(debug=True)
 
 # host = 'database-2.crbfgwhj5p1t.ap-south-1.rds.amazonaws.com'
 # user='admin'
